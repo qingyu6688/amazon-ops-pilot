@@ -1,0 +1,10 @@
+{
+  "productType": "DEMO_PRODUCT",
+  "requirements": "LISTING",
+  "attributes": {
+    "item_name": [{ "value": "模拟收纳商品，请勿用于真实销售", "language_tag": "en_US", "marketplace_id": "ATVPDKIKX0DER" }],
+    "brand": [{ "value": "Demo Brand", "marketplace_id": "ATVPDKIKX0DER" }],
+    "purchasable_offer": [{ "currency": "USD", "marketplace_id": "ATVPDKIKX0DER", "our_price": [{ "schedule": [{ "value_with_tax": 25 }] }] }],
+    "fulfillment_availability": [{ "fulfillment_channel_code": "DEFAULT", "quantity": 10 }]
+  }
+}

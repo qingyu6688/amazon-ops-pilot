@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "mode": "mock",
+  "sellerId": "DEMO_SELLER",
+  "marketplaceId": "ATVPDKIKX0DER",
+  "region": "NA",
+  "stateDirectory": ".amazon-ops",
+  "policyMaxAgeDays": 7,
+  "planTtlMinutes": 15,
+  "writePolicy": {
+    "mode": "bounded",
+    "expiresAt": "2099-01-01T00:00:00.000Z",
+    "maxDailySubmissions": 100,
+    "authorizedBy": "仅限本地模拟",
+    "scope": {
+      "skuPrefix": "DEMO-",
+      "productTypes": ["DEMO_PRODUCT"],
+      "currency": "USD",
+      "minPrice": 10,
+      "maxPrice": 50,
+      "maxQuantity": 100,
+      "fulfillmentChannels": ["DEFAULT"]
+    }
+  },
+  "customSkills": []
+}

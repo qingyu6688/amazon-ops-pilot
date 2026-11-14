@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.test-dist/
+.env
+.env.*
+!.env.example
+.amazon-ops/
+amazon-ops.config.json
+/custom-skills/
+*.log
+.DS_Store

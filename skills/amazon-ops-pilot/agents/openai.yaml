@@ -1,0 +1,6 @@
+interface:
+  display_name: "亚马逊运营领航"
+  short_description: "统筹亚马逊选品、合规、上架与日常运营，结合受控 MCP 执行并加载用户自定义技能"
+  default_prompt: "使用 $amazon-ops-pilot 检查当前运营阶段、缺失证据与下一步，并按授权范围调用 MCP。"
+policy:
+  allow_implicit_invocation: true
